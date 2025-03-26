@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 - HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+        <p>Belajar elemen semantik HTML5</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a> |
+        <a href="#kursus">Kursus</a> |
+        <a href="#kontak">Kontak</a> |
+        <a href="#pendaftaran">Pendaftaran</a>
+    </nav>
+
+    <section id="tentang">
+        <h2>Tentang Halaman ini</h2>
+        <p>Ini merupakan section untuk menu Tentang</p>
+    </section>
+
+    <section id="kursus">
+        <h2>Daftar Kursus</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama Kursus</th>
+                <th>Durasi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Dasar HTML & CSS</td>
+                <td>4 Minggu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Javascript Fundamental</td>
+                <td>6 Minggu</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+
+        <label for="nama">Nama:</label>
+        <input type="nama"> <br> <br>
+    
+        <label for="email">Email:</label>
+        <input type="email"> <br> <br>
+    
+        <label for="pesan">Pesan:</label><br>
+        <textarea rows="5" cols="30" input type="pesan"> </textarea> <br> <br>
+          
+        </form>
+    </section>
+
+    <section id="pendaftaran">
+        <h2>Pendaftaran</h2>
+
+        <label for="nama">1. Nama:</label>
+        <input type="nama"> <br> <br>
+
+        <label for="tanggal lahir">2. Tanggal Lahir:</label>
+        <input type="date"> <br> <br>
+
+        <label for="jenis kelamin">3. Jenis Kelamin:</label> <br>
+        <input type="radio" id="laki-laki" name="jenis kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label><br>
+
+        <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="email">4. Email:</label>
+        <input type="email"> <br> <br>
+
+        <label for="no hp">5. Nomor HP:</label>
+        <input type="no hp"> <br> <br>
+
+        <label for="pilih_kursus">6. Kursus yang diminati:</label>
+        <input type="checkbox" name="pilih_kursus">
+        <label for="Dasar HTML & CSS">Dasar HTML & CSS</label>
+        <input type="checkbox" name="pilih_kursus">
+        <label for="Javascript Fundamental">Javascript Fundamental</label> <br> <br>
+
+        <label for="pendidikan_terakhir">7. Pendidikan Terakhir:</label> <br>
+        <input type="radio" name="pendidikan_terakhir">
+        <label for="pendidikan_terakhir">SMP</label> <br>
+
+        <input type="radio" name="pendidikan_terakhir">
+        <label for="pendidikan_terakhir">SMA</label> <br>
+
+        <input type="radio" name="pendidikan_terakhir">
+        <label for="pendidikan_terakhir">D3</label> <br>
+
+        <input type="radio" name="pendidikan_terakhir">
+        <label for="pendidikan_terakhir">S1</label> <br> <br>
+
+        <label for="alasan">8. Mengapa Anda ingin mengikuti kursus ini?</label> <br>
+        <textarea rows="5" cols="30" input type="alasan"> </textarea> <br> <br>
+
+        <label for="harapan">9. Apa harapan Anda setelah mengikuti kursus ini?</label> <br>
+        <textarea rows="5" cols="30" input type="harapan"> </textarea> <br> <br>
+
+        <label for="awal">10. Dari mana Anda mengetahui kursus ini?</label> <br>
+        <input type="radio" name="awal">
+        <label for="awal">Sosial Media</label> <br>
+        <input type="radio" name="awal">
+        <label for="awal">Teman/Kerabat</label> <br>
+        <input type="radio" name="awal">
+        <label for="awal">Halaman Resmi</label> <br>
+        <input type="radio" name="awal">
+        <label for="awal">DLL</label> <br> <br>
+    </section>
+
+    <button type="submit">Kirim</button>
+    <!-- bagian untuk latihan berikutnya -->
+     <footer>
+        <p>&copy; 2025 oleh Cheryl Kucharova</p>
+     </footer>
+</body>
+</html>
